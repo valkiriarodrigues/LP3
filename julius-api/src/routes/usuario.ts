@@ -27,5 +27,6 @@ routerUsuario.get('/lancamentos/:idUsuario', async (req, res) => {
     const idUsuario = parseInt(req.params.idUsuario);
     const lancamentos = await usuarioCtrl.recuperarLancamentosDoUsuario(idUsuario);
     res.json(lancamentos);
+ 
 
 });

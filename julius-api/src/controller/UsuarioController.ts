@@ -26,4 +26,6 @@ export class UsuarioController {
        });
        return usuario.lancamentos;
    }
+
+
 }
